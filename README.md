@@ -8,3 +8,6 @@ Regras de Comprometimento
 6. Ao trabalhar com arquivos do git hub realizar o pull antes de dar um push
 7. Falar e saber ouvir
 8. Aviso prévio sobre qualquer atualização no git hub.
+
+
+dúvidas de branches https://moodle.sptech.school/pluginfile.php/16798/mod_resource/content/8/git-branches_SPTECH.pdf
