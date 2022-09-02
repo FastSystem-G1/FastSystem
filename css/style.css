@@ -19,7 +19,7 @@ background-image: url(../img/fundo_login.png);
     display: flex;
     background-image: url(../img/bg_home1.png);
     width: 100%;
-    height: 400px;
+    height: 30em;
 
 }
 
@@ -29,10 +29,10 @@ background-image: url(../img/fundo_login.png);
 
     display: flex;
     justify-content: space-around;
-    
+    height: 40em;
     width: 100%;
     margin: 0 auto;
-    background-image: url('../img/bg1.jpg');
+    background-image: url('../img/fundobg_login.png');
     background-size: cover;
 
 }
@@ -248,13 +248,14 @@ flex-direction: column;
         margin-top: 5%;
         width: 250px;
         height: 420px;
-        background-color: #00C2CB;
+        /* background-color: #00C2CB; */
     }
     .quemSomos{
 
+        height: max-content;
         width: 100%;
         margin: 0 auto;
-        background-image: url('../img/bg1.jpg');
+        /* background-image: url('../img/fundobg_login.png'); */
         background-size: cover;
         background-repeat: no-repeat;
     
@@ -278,7 +279,7 @@ flex-direction: column;
 
         width: 100%;
         margin: 0 auto;
-        background-image: url('../img/bg1.jpg');
+       /*  background-image: url('../img/fundobg_login.png'); */
         background-size: cover;
         background-repeat: no-repeat;
     
@@ -304,7 +305,7 @@ flex-direction: column;
       
         width: 100%;
         margin: 0 auto;
-        background-image: url('../img/bg1.jpg');
+        /* background-image: url('../img/fundobg_login.png'); */
         background-size: cover;
         background-repeat: no-repeat;
     
@@ -329,7 +330,7 @@ flex-direction: column;
       
         width: 100%;
         margin: 0 auto;
-        background-image: url('../img/bg1.jpg');
+       /*  background-image: url('../img/fundobg_login.png'); */
         background-size: cover;
         background-repeat: no-repeat;
     
@@ -343,7 +344,7 @@ flex-direction: column;
 @media screen and (min-width: 992px) {
     .quemSomosConteudo{
     
-        margin-top: 5%;
+        margin-top: 10%;
         width: 390px;
         height: 420px;
     }
