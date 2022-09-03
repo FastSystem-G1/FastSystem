@@ -1,32 +1,32 @@
-body{
+body {
     margin: 0;
     padding: 0;
     font-family: 'Quicksand', sans-serif;
-    
 }
-.containerPrincipal{
+
+.containerPrincipal {
     width: 100%;
-    background: rgb(70,164,151);
-background-image: url(../img/fundo_login.png);
+    background: rgb(70, 164, 151);
+    background-image: url(../img/fundo_login.png);
 }
+
 /*centralizar*/
-.container{
+.container {
     width: 80%;
-    margin:0 auto ;
-    
-}/*=========================BANNER=============================================================== */
-.banner{
+    margin: 0 auto;
+}
+
+/*=========================BANNER=============================================================== */
+.banner {
     display: flex;
     background-image: url(../img/bg_home1.png);
     width: 100%;
     height: 30em;
-
 }
 
 
 /*=========================Quem Somos=============================================================== */
-.quemSomos{
-
+.quemSomos {
     display: flex;
     justify-content: space-around;
     height: 40em;
@@ -34,161 +34,91 @@ background-image: url(../img/fundo_login.png);
     margin: 0 auto;
     background-image: url('../img/fundobg_login.png');
     background-size: cover;
-
 }
 
-.quemSomosCentro{
-
+.quemSomosCentro {
     display: flex;
     flex-wrap: wrap;
     justify-content: space-around;
     padding: 1%;
     width: 80%;
     margin: 0 auto;
-    
-    
-
 }
-.quemSomosConteudo{
-    
+
+.quemSomosConteudo {
+
     display: flex;
     padding: 1%;
     align-items: center;
     flex-direction: column;
     width: 250px;
-    
+
     background-color: rgba(245, 245, 245, 0.2);
-  
+
     border: #8eabc0 3px solid;
     border-radius: 20px;
-    
-    
-    
-    
+
+
+
+
 }
-.quemSomosConteudo img{
+
+.quemSomosConteudo img {
     width: 40%;
 }
-.quemSomosTexto{
+
+.quemSomosTexto {
     display: flex;
     width: 75%;
     text-align: center;
 }
-.quemSomosTexto h3{
+
+.quemSomosTexto h3 {
     color: white;
 }
 
 /*================================================NAVBAR=============================================*/
-.header{
+.header {
 
     background-image: url(../img/header_bg.png);
     background-size: cover;
     color: #00C2CB;
 }
-.container img{
+
+.container img {
     width: 35%;
 }
 
-.header .container{
+.header .container {
     display: flex;
-    justify-content:space-between;
+    justify-content: space-between;
 }
-.banner .container.login ,.container.cadastro{
+
+.banner .container.login,
+.container.cadastro {
     justify-content: center;
 }
-.agora{
+
+.agora {
     font-weight: bolder;
 }
-.navbar{
+
+.navbar {
     display: flex;
     list-style: none;
     width: 45%;
     justify-content: space-evenly;
     align-items: center;
 }
-.navbar a{
+
+.navbar a {
     text-decoration: none;
     color: #00C2CB;
 }
-/*===============================================TELA LOGIN======================================*/
-.containerForm{
-    display: flex;
-    width: 50%;
-    height: 400px;
 
-}
-.conteudoform{
-    display: flex;
-    flex-direction: row;
-    width: 100%;
-    justify-content: center;
-    padding: 3% 0%;
-    margin: 0;
-    
-    
-}
-.cardForm{
-    display: flex;
-    width: 90%;
-    border: #3289cd 3px solid;
-    padding: 0%;
-}
-
-.logoForm{
-    display: flex;
-    align-items: center;
-    justify-content: center;
-    background-color: #010E3C;
-    width: 50%;
-}
-.logoForm img{
-    width: 50%;
-}
-.formularioForm{
-    display: flex;
-    flex-direction: column;
-    align-items: center;
-    justify-content:center;
-    background-color: white;
-    width: 50%;
-}
-.botaoForm{
-    background-color: #010E3C;
-    color: white;
-    padding: 10%;
-    width: 80%;
-    font-size: large;
-    
-}
-.containerInputsForm{
-    display: flex;
-    flex-direction: column;
-    align-items: center;
-    height: 60%;
-    justify-content: space-around;
-
-}
-.containerInputsForm input{
-
-    border: 0;
-    outline: 3px solid #00C2CB;
-    padding: 3%;
-    margin-top: 3%;
-}
-.containerInputsForm label{
-
-
-    color: #010E3C;
-    font-weight: bolder;
-
-}
-.emailContainer, .senhaContainer{
-display: flex;
-flex-direction: column;
-}
 /*===========================================FOOTER==========================================*/
 
-.footer{
+.footer {
     background-color: #010E3C;
     width: 100%;
     height: 110px;
@@ -196,14 +126,14 @@ flex-direction: column;
     justify-content: space-around;
 }
 
-.footer h3{
+.footer h3 {
     color: white;
 }
 
 /*===============================================RESPONSIVIDADE======================================*/
 
 
-.navbarMobile div{
+.navbarMobile div {
     width: 32px;
     height: 2px;
     margin: 8px;
@@ -211,11 +141,12 @@ flex-direction: column;
 
 }
 
-@media (max-width: 999px){
-    body{
+@media (max-width: 999px) {
+    body {
         overflow-x: hidden;
     }
-    .navbar{
+
+    .navbar {
         position: absolute;
         top: 8vh;
         right: 0;
@@ -228,29 +159,34 @@ flex-direction: column;
         transform: translateX(100%);
 
     }
-    .navbar li{
+
+    .navbar li {
         margin-left: 0;
         opacity: 0;
     }
-    .navbarMobile{
+
+    .navbarMobile {
         display: block;
     }
-    .navbar.ativo{
+
+    .navbar.ativo {
         transform: translateX(0);
     }
 
 
 }
+
 @media screen and (min-width: 300px) {
 
-    .quemSomosConteudo{
-    
+    .quemSomosConteudo {
+
         margin-top: 5%;
         width: 250px;
         height: 420px;
         /* background-color: #00C2CB; */
     }
-    .quemSomos{
+
+    .quemSomos {
 
         height: max-content;
         width: 100%;
@@ -258,125 +194,134 @@ flex-direction: column;
         /* background-image: url('../img/fundobg_login.png'); */
         background-size: cover;
         background-repeat: no-repeat;
-    
+
     }
-    .containerForm{
+
+    .containerForm {
 
         width: 100%;
-        
+
     }
-  }
+}
+
 @media screen and (min-width: 401px) {
 
-    .quemSomosConteudo{
-    
+    .quemSomosConteudo {
+
         margin-top: 5%;
         width: 250px;
         height: 420px;
 
     }
-    .quemSomos{
+
+    .quemSomos {
 
         width: 100%;
         margin: 0 auto;
-       /*  background-image: url('../img/fundobg_login.png'); */
+        /*  background-image: url('../img/fundobg_login.png'); */
         background-size: cover;
         background-repeat: no-repeat;
-    
-    }
- 
-  }
 
-  .containerForm{
+    }
+
+}
+
+.containerForm {
 
     width: 100%;
 
 }
+
 @media screen and (min-width: 600px) {
 
-    .quemSomosConteudo{
-    
+    .quemSomosConteudo {
+
         margin-top: 5%;
         width: 250px;
         height: 420px;
     }
-    .quemSomos{
 
-      
+    .quemSomos {
+
+
         width: 100%;
         margin: 0 auto;
         /* background-image: url('../img/fundobg_login.png'); */
         background-size: cover;
         background-repeat: no-repeat;
-    
+
     }
-    .containerForm{
-        
+
+    .containerForm {
+
         width: 85%;
-    
+
     }
-    
-  }
+
+}
+
 @media screen and (min-width: 768px) {
 
-    .quemSomosConteudo{
-    
+    .quemSomosConteudo {
+
         margin-top: 5%;
         width: 300px;
         height: 420px;
     }
-    .quemSomos{
 
-      
+    .quemSomos {
+
+
         width: 100%;
         margin: 0 auto;
-       /*  background-image: url('../img/fundobg_login.png'); */
+        /*  background-image: url('../img/fundobg_login.png'); */
         background-size: cover;
         background-repeat: no-repeat;
-    
+
     }
-    .containerForm{
+
+    .containerForm {
         width: 55%;
-    
+
     }
-    
+
 }
+
 @media screen and (min-width: 992px) {
-    .quemSomosConteudo{
-    
+    .quemSomosConteudo {
+
         margin-top: 10%;
         width: 390px;
         height: 420px;
     }
-    .containerForm{
+
+    .containerForm {
         width: 50%;
-    
+
     }
-    
+
 }
+
 @media screen and (min-width: 1200px) {
-    .quemSomosConteudo{
-    
+    .quemSomosConteudo {
+
         display: flex;
         padding: 1%;
         align-items: center;
         flex-direction: column;
         width: 250px;
-        
+
         background-color: rgba(245, 245, 245, 0.2);
-      
+
         border: #8eabc0 3px solid;
         border-radius: 20px;
-       
+
     }
-    .containerForm{
-        
+
+    .containerForm {
+
         width: 50%;
-    
+
     }
-    
+
 }
-
-
-
-
