@@ -4,11 +4,14 @@
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <link rel="stylesheet" href="css/style.css">
+    <link rel="stylesheet" href="css/style-index.css">
+    <link rel="stylesheet" href="css/index-responsividade.css">
     <link rel="preconnect" href="https://fonts.googleapis.com">
 <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
 <link href="https://fonts.googleapis.com/css2?family=Quicksand:wght@300&display=swap" rel="stylesheet">
     <title>Document</title>
+    <link href="https://fonts.googleapis.com/icon?family=Material+Icons"
+      rel="stylesheet">
 </head>
 <body>
     <div class="containerPrincipal">
@@ -18,20 +21,22 @@
                     <img src="img/logo.png" alt="">
                 </h1>
 
-                <!-- <ul class="navbarMobile">
 
-                    <div class="line1"></div>
-                    <div class="line2"></div>
-                    <div class="line3"></div> -->
-                    <!-- <li><a href="index.html">Inicio</a></li>
+                <div class="divNavbar">
+                    <span class="material-icons" id="menuBurger"  onclick="clickmenu()">
+                    <img src="img/burger.png" alt="">
+                    </span>
+    
+                  <ul id="itens" class="navbar-mobile">
+                    <li><a href="index.html">Inicio</a></li>
                     <li><a href="index.html">Valores</a></li>
                     <li><a href="index.html">Serviços</a></li>
                     <li><a href="index.html">Sobre Nós</a></li>
                     <li><a href="index.html">Contato</a></li>
-                    <li class="agora"><a href="login.html">Login</a></li> 
-              </ul> -->
-     
-                <ul class="navbar">
+                    <li class="agora"><a href="login.html">Login</a></li>
+                   </ul>
+    
+                   <ul class="navbar">
                     <li><a href="index.html">Inicio</a></li>
                     <li><a href="index.html">Valores</a></li>
                     <li><a href="index.html">Serviços</a></li>
@@ -39,16 +44,34 @@
                     <li><a href="index.html">Contato</a></li>
                     <li class="agora"><a href="login.html">Login</a></li>
                 </ul>
+                   
+                </div>
             </div>
 
         <div class="banner">
+            
+
+            <div class="textoBanner">
+                <span>Bem-vindo(a) à FastSystem</span>
+                <h2>Lorem ipsum dolor sit amet, consectetur adipiscing elit.</h2>
+                <button class="btnSobre">Sobre o Sistema</button>
+            </div>
+
+            <div class="redesIcones">
+                <a href=""><img src="img/redes1.png" alt=""></a>
+                <a href=""><img src="img/redes2.png" alt=""></a>
+                <a href=""><img src="img/redes3.png" alt=""></a>
+                <a href=""><img src="img/redes4.png" alt=""></a>
+    
+      
+            </div>
 
         </div>
 
         <div class="quemSomos">
             <div class="quemSomosCentro">
             <div class="quemSomosConteudo">
-                <img src="img/icone1.png" alt="">
+                <img src="img/icone3.png">
                 <div class="quemSomosTexto">
                     <h3>Lorem ipsum dolor sit amet, consectetur adipiscing elit.
                         Lorem ipsum dolor sit amet, consectetur adipiscing elit.
@@ -80,7 +103,81 @@
         </div>
         </div>
 
+        <div class="servicos">
+            <div class="titulo">
+            <h1>Serviços</h1>
+            </div>
+
+            <div class="bannerServico">
+                <div class="bannerSuperior">
+                    <div class="divSuperior1"></div>
+                    <div class="divSuperior2">
+                        <h2>Alertas em tempo real</h2>
+                        <img src="img/sinal-de-alerta 1.png" alt="">
+                    </div>
+                    <div class="divSuperior3"></div>
+                </div>
+                <div class="bannerInferior">
+                    <div class="divInferior1">
+                        <h2>Monitoramento 24 Horas</h2>
+                        <img src="img/analise-de-dados (1) 1.png" alt="">
+                    </div>
+                    <div class="divInferior2"></div>
+                    <div class="divInferior3">
+                        <h2>Analise e Relatórios</h2>
+                        <img src="img/analise-de-dados (3) 1.png" alt="">
+                    </div>
+                </div>
+            </div>
+
+            
+      
+        </div>
+
+        <div class="sobreBanner">
+            
+            <div class="titulo">
+                <h1>Sobre Nós</h1>
+            </div>
+            <div class="texto">
+                <h3>Fast System, a melhor opção para controle de máquinas do seu negócio. 
+                    Contrate-nos e facilite o monitoramento de sua equipe de suporte, 
+                    com nossos serviços os profissionais terão dashboards em tempo real para evitar lentidão de sistema. 
+                    Além de monitorar as aplicações utilizadas em suas máquinas.
+                    Agilidade nos atendimentos/ pedidos, menos filas, satisfação de seus clientes, acionamento mais rápido do suporte,
+                    prever possíveis quedas de sistema... Tudo isso você encontra aqui!</h3>
+            </div>
+        </div>
+
+        <div class="mapaBanner">
+            <iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3657.287482017915!2d-46.66380268554314!3d-23.558116367356384!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x94ce59d2b063f663%3A0xc567c0d16d0bc582!2sS%C3%A3o%20Paulo%20Tech%20School!5e0!3m2!1spt-BR!2sbr!4v1662157575134!5m2!1spt-BR!2sbr" width="100%" height="450" style="border:0;" allowfullscreen="" loading="lazy" referrerpolicy="no-referrer-when-downgrade"></iframe>
+        </div>
+
+        <div class="footer">
+            <div class="esquerda"><h3>Seviços</h3></div>
+            <div class="centro"><h3>Social</h3></div>
+            <div class="direita"> <h3>Ajuda</h3></div>
+
+        </div>
+     
+            
+        </div>
+
     </div>
     
 </body>
 </html>
+
+<script>
+    function clickmenu(){
+
+        if(itens.style.display =='block'){
+            itens.style.display ='none';
+        }
+        else{
+            itens.style.display ='block';
+        }
+        
+
+    }
+</script>
