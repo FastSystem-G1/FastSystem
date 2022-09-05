@@ -146,10 +146,12 @@ background-image: url(../img/fundo_login.png);
 
 /*================================================NAVBAR=============================================*/
 .header{
-    
+    height: 15vh;
     background-color: #010E3C;
     background-size: cover;
     color: #00C2CB;
+    display: flex;
+    align-items: center;
 }
 .container img{
     width: 35%;
