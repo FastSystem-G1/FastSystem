@@ -6,7 +6,7 @@
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=div, initial-scale=1.0">
 
-    <title>Novo Funcionário</title>
+    <title>Funcionário | Fast System</title>
 
     <link rel="stylesheet" href="NovoFunionario_style.css">
     <link rel="preconnect" href="https://fonts.gstatic.com">
@@ -55,12 +55,12 @@
                     <div class="campos_cadastro">
 
                         <div class="div_inputs">
-                            <h2>Nome completo:</h2>
-                            <input class="inputs_cadastro" placeholder="Nome completo">
+                            <h2>Nome:</h2>
+                            <input class="inputs_cadastro" placeholder="Nome completo" type="">
                         </div>
                         <div class="div_inputs">
                             <h2>Função/Cargo:</h2>
-                            <select id="id_select" class="inputs_cadastro">
+                            <select id="id_select" class="inputs_cadastro" style="width: 300px;">
                                 <option value="">Selecione</option>
                                 <option value="">Administrador</option>
                                 <option value="">Suporte de TI</option>
@@ -68,21 +68,21 @@
                         </div>
                         <div class="div_inputs">
                             <h2>Email:</h2>
-                            <input class="inputs_cadastro" placeholder="Email">
-                            <img src="img/imagem_erro.png" id="imagem_erro" alt=""> <span id="mensagem_erro_email">Email inválido</span>
+                            <input class="inputs_cadastro" placeholder="seuemail@provedora.com" type="email">
+                            <!-- <img src="img/imagem_erro.png" id="imagem_erro" alt=""> <span id="mensagem_erro_email">Email inválido</span> -->
                         </div>
                         <div class="div_inputs">
                             <h2>Senha:</h2>
-                            <input class="inputs_cadastro" placeholder="Senha">
-                            <img src="img/imagem_acerto2.png" id="imagem_acerto" alt="">
+                            <input class="inputs_cadastro" placeholder="Mínimo 8 caracteres" type="password">
+                            <!-- <img src="img/imagem_acerto2.png" id="imagem_acerto" alt=""> -->
                         </div>
                         <div class="div_inputs">
                             <h2>CPF:</h2>
-                            <input class="inputs_cadastro" placeholder="CPF">
+                            <input class="inputs_cadastro" placeholder="Apenas Números" type="number" min="0">
                         </div>
                         <div class="div_inputs">
                             <h2>Telefone:</h2>
-                            <input class="inputs_cadastro" placeholder="CPF">
+                            <input class="inputs_cadastro" placeholder="Exemplo: 5511954622727" type="number" min="0">
                         </div>
                         <button onclick="" id="botao_cadastro">Cadastrar</button>
                     </div>
