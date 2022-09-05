@@ -11,3 +11,11 @@ Regras de Comprometimento
 
 
 dúvidas de branches https://moodle.sptech.school/pluginfile.php/16798/mod_resource/content/8/git-branches_SPTECH.pdf
+
+<b> Criar uma branch: </b> git checkout -b nome-da-branch
+git add .
+git commit -m "mensagem"
+git push -u origin nome-da-branch
+*=================================* -GitHub web
+git checkout main
+git pull
