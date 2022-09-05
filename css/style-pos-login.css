@@ -1,3 +1,51 @@
+.header {
+    height: 15vh;
+    width: 100%;
+    position: relative;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-color: #010d1e;
+}
+
+.backgroundHeader {
+    height: 25vh;
+    width: 98vw;
+    position: relative;
+    position: fixed;
+}
+
+.containerHeader {
+    height: 17vh;
+    width: 98vw;
+    display: flex;
+    position: relative;
+    float: left;
+}
+
+.navbar {
+    list-style: none;
+    justify-content: space-evenly;
+    display: flex;
+    align-items: center;
+    width: 30vw;
+    padding: 10px;
+    color: rgba(0, 194, 203, 1);
+}
+
+.headerIcon {
+    width: 80%;
+    display: flex;
+    align-self: center;
+    padding: 10px;
+}
+
+.fotoUsuario {
+    /* margin: 3%; */
+    margin-top: 1%;
+    height: 10vh;
+}
+
 /*===============================================TELA LOGIN======================================*/
 .containerForm {
     width: 30%;

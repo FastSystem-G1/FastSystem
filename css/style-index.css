@@ -145,7 +145,7 @@ background-image: url(../img/fundo_login.png);
 
 /*================================================NAVBAR=============================================*/
 .header{
-
+    
     background-color: #010E3C;
     background-size: cover;
     color: #00C2CB;
@@ -161,6 +161,9 @@ background-image: url(../img/fundo_login.png);
 .banner .container.login ,.container.cadastro{
     justify-content: center;
 }
+
+
+
 .agora{
     font-weight: bolder;
 }
@@ -174,6 +177,15 @@ background-image: url(../img/fundo_login.png);
 .navbar a{
     text-decoration: none;
     color: #00C2CB;
+}
+
+.navbar button{
+    background-color: #010E3C;
+    background-size: cover;
+    color: #00C2CB;
+    cursor: pointer;
+    border: none;
+    font-family:  'Quicksand', sans-serif;
 }
 
 .navbar-mobile{
@@ -251,9 +263,9 @@ background-image: url(../img/fundo_login.png);
     align-items: center;
     margin: 0 auto;
     width: 100%;
-    
+    justify-content: center;
     margin: 0 auto;
-    background-image: url('../img/fundo_gradiente1.png');
+    background-image: url('../img/fundofuncocima.png');
     
     
 }
@@ -324,7 +336,7 @@ background-image: url(../img/fundo_login.png);
     width: 100%;
     justify-content: center;
     margin: 0 auto;
-    background-image: url('../img/fundo_gradiente2.png');
+    background-image: url('../img/fundofundobaixo.png');
     
     
 }
@@ -347,7 +359,8 @@ background-image: url(../img/fundo_login.png);
     width: 100%;
     height: 110px;
     display: flex;
-    justify-content: space-around;
+    justify-content: center;
+    align-items: center;
 }
 
 .footer h3{

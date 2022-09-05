@@ -28,21 +28,26 @@
                     </span>
     
                   <ul id="itens" class="navbar-mobile">
-                    <li><a href="index.html">Inicio</a></li>
+                    <li class="agora"><a href="index.html">Inicio</a></li>
                     <li><a href="index.html">Valores</a></li>
                     <li><a href="index.html">Serviços</a></li>
                     <li><a href="index.html">Sobre Nós</a></li>
-                    <li><a href="index.html">Contato</a></li>
-                    <li class="agora"><a href="login.html">Login</a></li>
+                    <!-- <li><a href="index.html">Contato</a></li> -->
+                    <li><a href="login.html">Login</a></li>
                    </ul>
     
                    <ul class="navbar">
-                    <li><a href="index.html">Inicio</a></li>
+                    <li class="agora"><a href="index.html">Inicio</a></li>
+                    <button onclick="telaValores()">Valores</button>
+                    <button onclick="telaServico()">Serviços</button>
+                    <button onclick="telaAboutUs()">Sobre Nós</button>
+
+                   <!--  <li><a href="index.html">Contato</a></li>
                     <li><a href="index.html">Valores</a></li>
                     <li><a href="index.html">Serviços</a></li>
-                    <li><a href="index.html">Sobre Nós</a></li>
-                    <li><a href="index.html">Contato</a></li>
-                    <li class="agora"><a href="login.html">Login</a></li>
+                    <li><a href="index.html">Sobre Nós</a></li> -->
+                    
+                    <li><a href="login.html">Login</a></li>
                 </ul>
                    
                 </div>
@@ -54,7 +59,7 @@
             <div class="textoBanner">
                 <span>Bem-vindo(a) à FastSystem</span>
                 <h2>Lorem ipsum dolor sit amet, consectetur adipiscing elit.</h2>
-                <button class="btnSobre">Sobre o Sistema</button>
+                <button class="btnSobre" onclick="telaServico()">Sobre o Sistema</button>
             </div>
 
             <div class="redesIcones">
@@ -154,9 +159,9 @@
         </div>
 
         <div class="footer">
-            <div class="esquerda"><h3>Seviços</h3></div>
-            <div class="centro"><h3>Social</h3></div>
-            <div class="direita"> <h3>Ajuda</h3></div>
+            
+            <div class="centro"><h3>Copyright &copy; 2022 Fast System</h3></div>
+           
 
         </div>
      
@@ -179,5 +184,17 @@
         }
         
 
+    }
+
+    function telaValores(){
+        window.scroll(0, 730);
+    }
+
+    function telaServico(){
+        window.scroll(0, 1350);
+    }
+
+    function telaAboutUs(){
+        window.scroll(0, 2000);
     }
 </script>
