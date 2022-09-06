@@ -12,9 +12,9 @@ body {
     width: 100%;
     margin: 0;
     padding: 0;
-    font-family: 'Red Hat Display', 'QuickSand', 'Lucida', 'Sans Unicode';
+    font-family: 'Quicksand', sans-serif;
     background: linear-gradient(289.13deg, #03C8DC 0%, #01558F 28.83%, #003E73 59.87%, #021545 93.23%);
-
+    
 }
 
 /* fundo{
@@ -55,6 +55,12 @@ h2 {
     display: flex;
     position: relative;
     float: left;
+}
+
+a{
+    color: #03C8DC;
+    font-size: 15px;
+    text-decoration: none;
 }
 
 .navbar {
@@ -109,9 +115,8 @@ h2 {
     width: 100%;
     height: 100%;
     display: flex;
-    border-radius: 20px;
-    border-style: solid;
-    border-color: black;
+
+
 }
 
 #imagem_logo_cadastro {
@@ -124,8 +129,8 @@ h2 {
 }
 
 .box1 {
-    border-radius: 17px 0px 0px 17px;
-    background-color: #010d1e;
+    border-radius: 80px 0px 0px 80px;
+    background-color: #010E3C;
     width: 40%;
     height: 100%;
     display: flex;
@@ -140,7 +145,7 @@ h2 {
     border-style: solid;
     border-color: black; */
     border-left: none;
-    border-radius: 0px 17px 17px 0px;
+    border-radius: 0px 80px 80px 0px;
     width: 60%;
     height: 100%;
     background: rgba(255, 255, 255, 0.4);
@@ -230,13 +235,13 @@ margin: 0;
     padding: 7px;
     width: 300px;
     padding: 4px;
-
+    margin-top: 25px;
     border: 0;
     border-bottom: 1px solid rgb(255, 255, 255, 0.4);
     outline: none;
-
     background-color: transparent;
     color: rgba(255, 255, 255);
+    font-size: medium;
 }
 
 input::-webkit-input-placeholder {
