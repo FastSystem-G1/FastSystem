@@ -152,6 +152,7 @@ background-image: url(../img/fundo_login.png);
     color: #00C2CB;
     display: flex;
     align-items: center;
+    font-size: 15px;
 }
 .container img{
     width: 35%;
@@ -173,9 +174,10 @@ background-image: url(../img/fundo_login.png);
 .navbar{
     display: flex;
     list-style: none;
-    width: 90%;
+    width: 30%;
     justify-content: space-evenly;
     align-items: center;
+    position: fixed;
 }
 .navbar a{
     text-decoration: none;
@@ -183,12 +185,13 @@ background-image: url(../img/fundo_login.png);
 }
 
 .navbar button{
-    background-color: #010E3C;
+    background-color: transparent;
     background-size: cover;
     color: #00C2CB;
     cursor: pointer;
     border: none;
     font-family:  'Quicksand', sans-serif;
+    font-size: 15px;
 }
 
 .navbar-mobile{
@@ -226,7 +229,6 @@ background-image: url(../img/fundo_login.png);
     color: white;
 }
 #menuBurger{
-    background-color: black;
     color: white;
     width: 15%;
     text-align: center;
@@ -370,3 +372,16 @@ background-image: url(../img/fundo_login.png);
     color: white;
 }
 
+body::-webkit-scrollbar {
+    width: 12px;               /* width of the entire scrollbar */
+  }
+  
+  body::-webkit-scrollbar-track {
+    background: #010E3C;        /* color of the tracking area */
+  }
+  
+  body::-webkit-scrollbar-thumb {
+    background-color: #00C2CB;    /* color of the scroll thumb */
+    border-radius: 20px;       /* roundness of the scroll thumb */
+    border: none;  
+  }
