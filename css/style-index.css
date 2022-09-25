@@ -3,6 +3,8 @@ body{
     padding: 0;
     font-family: 'Quicksand', sans-serif;
     height: 100vh;
+    background-color: #010E3C;
+    
     
 }
 .containerPrincipal{
@@ -288,6 +290,8 @@ background-image: url(../img/fundo_login.png);
     justify-content: center;
     margin: 0 auto;
     background-image: url('../img/fundofuncocima.png');
+    background-repeat: no-repeat;
+    background-size: cover;
     
     
 }
@@ -359,6 +363,8 @@ background-image: url(../img/fundo_login.png);
     justify-content: center;
     margin: 0 auto;
     background-image: url('../img/fundofundobaixo.png');
+    background-repeat: no-repeat;
+    background-size: cover;
     
     
 }

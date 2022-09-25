@@ -1,0 +1,129 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="css/teste.css">
+    <link rel="stylesheet" href="css/teste_empresa.css">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link rel="icon" href="img/logo.png">
+    <link href="https://fonts.googleapis.com/css2?family=Quicksand:wght@300&display=swap" rel="stylesheet">
+    <title>Cadastros | Fast System</title>
+</head>
+
+<body>
+    <div class="containerPrincipal">
+
+        <div class="menuLateral">
+            <div class="logo">
+                <img src="img/logo3.png" width="100px">
+            </div>
+
+            <ul class="menuLinks">
+                <li class="link_icone"><img src="img/home_icon.png" width="25px">Home</li>
+                <li class="link_icone"><img src="img/dash_icon.png" width="25px">Dashboard</li>
+                <li onclick="mostrarSubmenu()" class="link_icone"><img src="img/add_icon.png" width="25px" id="img_menu">Cadastros</li>
+                    <div class="submenu" id="submenu" style="display: none">
+                        <li class="link_icone"><img src="img/person_add.png" width="25px">Funcionários</li>
+                        <li class="link_icone"><img src="img/app_registration.png" width="25px">Aplicativos</li>
+                        <li class="link_icone"><img src="img/add_computer.png" width="25px">Máquinas</li>
+
+                    </div>
+                    
+                
+            </ul>
+
+        </div>
+
+        <div class="conteudoPosLogin">
+            <div class="headerPosLogin">
+                <div class="infoMenu">
+                    <span>Home > Cadastro Empresa</span>
+                </div>
+                
+                <div class="infoUsuario">
+                    <span>Ricardo</span>
+                    <span><a href=""> <img src="img/logout_icon.png" width="25px"></a></span>
+                <img src="img/img_usuario.png" width="55px" alt="">
+
+                </div>
+                
+            </div>
+
+            <div class="containerForm">
+                <div class="titulo_novo_integrante">
+                    <h2 id="h2_novo_integrante">
+                        Cadastre sua empresa
+                    </h2>
+                </div>
+
+                <div class="campos_cadastro">
+                    <div class="divCaixa">
+                        <div class="div_inputs">
+                            <div class="">
+                                <h2>Nome:</h2>
+                            <input class="inputs_cadastro" placeholder="Nome da empresa">
+                            </div>
+                            <div>
+                                <h2>Email:</h2>
+                            <input class="inputs_cadastro" placeholder="Email">
+                           <!--  <img src="img/imagem_erro.png" id="imagem_erro" alt=""> <span id="mensagem_erro_email">Email inválido</span> -->
+    
+                            </div>
+                            <div class="">
+                            
+                                <h2>Senha:</h2>
+                        <input class="inputs_cadastro" placeholder="Senha">
+                            </div>
+    
+                            
+                        </div>
+
+                    </div>
+                    <div class="divCaixa">
+                        <div class="div_inputs">
+                        
+                        
+                            <div class="">
+                                <h2>Representante:</h2>
+                                <input class="inputs_cadastro" placeholder="Nome completo">
+                            </div>
+                            <div>
+
+                                <h2>CNPJ:</h2>
+                            <input class="inputs_cadastro" placeholder="Apenas números">
+                                
+                            
+                            </div>
+                            <div>
+                                <h2>Confirmar Senha:</h2>
+                            <input class="inputs_cadastro" placeholder="Senha">
+                            </div>
+    
+                            
+                        </div>
+
+                    </div>
+                    
+                    
+                    
+                    
+                </div>
+                <div class="divBotao">
+                    <button onclick="" id="botao_cadastro">Cadastrar</button>
+                </div>
+                
+            </div>
+
+        </div>
+
+    </div>
+
+</body>
+
+</html>
+
+<script src="js/script.js"></script>

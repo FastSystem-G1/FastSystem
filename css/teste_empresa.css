@@ -148,8 +148,18 @@ h2 {
 }
 
 .div_inputs {
+    width: 100%;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-around;
     color: black;
     margin-top: 2%;
+    
+}
+.div_inputs div{
+    display: flex;
+    justify-content: space-between;
+    margin-: 1%;
 }
 
 ::placeholder {
@@ -205,11 +215,14 @@ margin: 0;
 }
 
 .campos_cadastro{
-    height: 87.5%;
     width: 100%;
     display: flex;
     align-items: center;
-    flex-direction: column;
+    flex-direction: row;
+    justify-content:space-around;
+   
+    margin: 0 auto;
+
 }
 
 .inputs_cadastro {
@@ -279,4 +292,17 @@ margin: 0;
     padding: 2%;
     cursor: pointer;
     background-color: #010e3c42;
+}
+
+
+
+.divCaixa{
+    display: flex;
+    flex-direction: column;
+    
+
+}
+.divBotao{
+    display: flex;
+    justify-content: center;
 }

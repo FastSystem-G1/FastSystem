@@ -1,0 +1,104 @@
+body{
+    padding: 0%;
+    margin: 0;
+    height: 100vh;
+    color: white;
+}
+.containerPrincipal{
+    width: 100%;
+
+    display: flex;
+    flex-direction: row;
+    background-image: url(../img/fundo_login.png);
+}
+
+.menuLateral{
+display: flex;
+flex-direction: column;
+width: 20%;
+background-color: #010E3C;
+height: 100vh;
+border-right:2px solid  white;
+}
+
+.conteudoPosLogin{
+    display: flex;
+    flex-direction: column;
+    width: 100%;
+    
+}
+.headerPosLogin{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    background-color: #010E3C;
+    padding: 3%;
+    color: white;
+}
+
+.menuLinks{
+    list-style:none;
+    
+    display: flex;
+    flex-direction: column;
+    margin-left: 0;
+    padding: 0%;
+
+
+}
+.menuLinks li{
+    background-color: transparent;
+    background-size: cover;
+    color: white;
+    cursor: pointer;
+    border: none;
+    font-family:  'Quicksand', sans-serif;
+    font-size: 15px;
+    padding: 5%;
+    }
+    .menuLinks li a{
+        text-decoration: none;
+    color: #00C2CB; 
+         display:block;}
+
+    .menuLinks li a:hover{
+    background:red;
+    color:#fff;
+    
+    }
+    .menuLinks li  ul{
+        position:absolute;
+        top:25px;
+        left:0;
+        background-color:black;
+        display:block;
+        }
+
+
+    .menuLinks li ul li{
+           
+            display:block;
+            width:150px;
+    }
+    .infoUsuario{
+        display: flex;
+        align-items: center;
+        justify-content: space-between;
+        width: 15%;
+        
+    }
+    .logo{
+        display: flex;
+        justify-content: center;
+    }
+   .link_icone{
+    display: flex;
+    justify-content:flex-start;
+    align-items: center;
+    
+   }
+   .link_icone:hover {
+    cursor: pointer;
+    background-color: #00C2CB;
+    color: black;
+}
